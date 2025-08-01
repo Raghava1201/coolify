@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: <your-ecr-or-dockerhub-repo>:latest  # Replace after pushing
+    ports:
+      - "80:80"
